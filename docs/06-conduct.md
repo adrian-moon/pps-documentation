@@ -1,0 +1,54 @@
+# VI. EMPLOYEE CONDUCT
+
+## ABSENTEEISM AND TARDINESS 
+The Company is able to secure work based upon our estimates of performance and our  history of reliability. Therefore, the Company expects all employees to assume diligent  responsibility for their attendance and promptness. Continued dependability, quality and  pride of service are factors over which each individual employee has a great deal of  influence. If you are absent and cannot perform your duties on time, or if you produce  substandard work, then we all pay the price by losing the confidence of the customer. 
+The work schedule is constructed around the maximum working hours and capabilities of  the staff. It is extremely important that you be punctual in your arrival for work at the  beginning of the work day or shift to which you are assigned. If you know that you will  be absent or late arriving for work, notify your supervisor within 1 hour of your scheduled  start time by calling our main number.
+
+If you are absent for more than three consecutive  workdays, a statement from a physician may be required before you will be permitted to  return to work. In such instances, the Company also reserves the right to require you to  submit to an examination by a physician designated by the Company at its discretion. 
+Unexcused or excessive absenteeism or tardiness is grounds for disciplinary action, up to  and including termination. If you are absent for three or more consecutive business days and fail to properly report your absences, this will be considered a resignation of your  position and you will be terminated for abandonment of your job. 
+
+## GUIDELINES FOR APPROPRIATE CONDUCT 
+As a Company team member, employees are expected to accept certain responsibilities,  follow acceptable business principles in matters of conduct, and exhibit a high degree of  integrity at all times. This not only involves sincere respect for the rights and feelings of  others, but also demands that employees refrain from any behavior that might be harmful  to themselves, co-workers, the Company, or that might be viewed unfavorably by current  or potential customers or by the public at large. Employee conduct reflects on the  Company. Employees are, consequently, encouraged to observe the highest standards of  professionalism at all times.
+
+Types of behavior and conduct that the Company considers inappropriate include, but are  not limited to, the following:
+
+1. Falsifying employment or other Company records; 
+2. Violating the Company's anti-harassment policy; 
+3. Soliciting or accepting gratuities from customers or clients; 
+4. Excessive absenteeism or tardiness; 
+5. Excessive, unnecessary, or unauthorized use of Company property and supplies,  particularly for personal purposes; 
+6. Reporting to work under the influence of drugs or alcohol, and the illegal  manufacture, possession, use, sale, distribution or transportation of drugs; 
+7. Bringing or using alcoholic beverages on the Company property or using alcoholic  beverages while engaged in Company business off the Company's premises, except  where authorized; 
+8. Fighting or using obscene, abusive, or threatening language or gestures; 9. Theft of property from co-workers, customers, or the Company; 
+10. Unauthorized possession of firearms on the Company premises or while on  Company business; 
+11. Disregarding safety or security regulations; 
+12. Insubordination; and
+13. Failing to maintain the confidentiality of Company, customer, or client  information.
+
+Should an employee’s performance, work habits, overall attitude, conduct or demeanor  become unsatisfactory based on violations either of the above or of any other Company  policies, rules, or regulations, the employee will be subject to disciplinary action, up to  and including employment termination. 
+Before or during imposition of any discipline, employees may be given an opportunity to  relate their version of the incident or problem at issue and provide any explanation or  justification they consider relevant.
+
+Where appropriate, a policy of progressive employee discipline will be followed by  supervisors. Major elements of this policy include: 
+1. VERBAL REPRIMAND. The first step in the Company's progressive disciplinary  policy is the "verbal reprimand." This is a verbal warning to an employee that his  conduct is unacceptable, and that repeated or continued failure to conform his  conduct or performance to the Company standards will result in more severe  disciplinary action. Before receiving a verbal reprimand, an employee will be  counseled by his supervisor and told what improvements are necessary and expected  to correct any performance deficiencies. A record of the notice of the verbal  reprimand may be made and retained in the employee's personnel file. 
+2. WRITTEN REPRIMAND. The second step is a "written reprimand." This  reprimand will describe the unacceptable conduct or performance of the employee  and specify needed changes or improvements. A copy of the written reprimand will  be retained in the employee's personnel file. 
+3. SUSPENSION. Suspension of the employee's employment may, at the sole  discretion of the Company, be used as a third step. The length of the suspension  will vary based upon such factors as the severity of the offense, the employee's  performance, and the employee's disciplinary record. An employee may be  suspended for repeated instances of minor misconduct, failure to conform his  conduct or performance to the standards of his position, or for a single serious  offense. A record of the suspension will be retained in the employee's personnel  file. 
+4. TERMINATION. The final step in the disciplinary procedure is the termination of  the employee. If an employee fails to conform his conduct or performance to the  standards required by the Company, the Company may, in its sole discretion,  terminate the employee's employment.
+
+Notwithstanding the foregoing progressive disciplinary procedure policy, the Company  reserves the right to administer discipline in such a manner as it deems appropriate to the  circumstances, and may, in its sole discretion, eliminate any or all of the steps in the  progressive discipline procedure.
+
+## SAFE WORKPLACE POLICY 
+It is the intent of the Company to provide a safe workplace for employees and to provide  a comfortable and secure atmosphere for customers and others with whom we do  business. Pressure Profile Systems, Inc. have a no tolerance guideline for violent acts or  threats of violence.
+
+Pressure Profile Systems, Inc. expect all employees to conduct themselves in a non threatening, non-abusive manner at all times. No direct, conditional or veiled threat of  harm to any employee or company property will be considered acceptable behavior. Acts  of violence or intimidation of others will not be tolerated. Any employee who commits  or threatens to commit a violent act against any person while on Company premises will  be subject to immediate discharge. If an employee, while engaged in Company business  off the premises, commits or threatens to commit a violent act, that employee will be  subject to immediate discharge if the threat or violent act could adversely affect the  Company or its reputation in the community.
+
+Employees within the company share the responsibility in identification and alleviation of  threatening or violent behaviors. Any employee who is subjected to or threatened with  violence, or who is aware of another individual who has been subjected to or threatened  with violence, shall immediately report this information to their supervisor or a member  of management. Employees should not assume that any threat is not serious. If you as an  individual feel threatened and need protection, do not hesitate to report the situation to a  supervisor. Any threat reported to a supervisor should be brought to the attention of the  Pressure Profile Systems, Inc. Human Resource Department. All reports will be carefully  investigated by Human Resources, and employee confidentiality will be maintained to the  fullest extent possible. 
+
+## DRUG FREE WORKPLACE POLICY 
+
+The policy of Pressure Profile Systems, Inc. ("the Company") is to maintain a drug free  workplace. For the purpose of this policy, "client" is defined as the business entity to  which the employee has been assigned by the Company. The term "workplace" is defined  as Company and/or client property, any company-sponsored and/or client-sponsored  activity, or any other site for the performance of work for the Company and/or the client.  The term "drug" includes alcoholic beverages and prescription drugs, as well as illegal  inhalants and illegal drugs. Activities prohibited by this policy shall be considered  grounds for discipline, including but not limited to suspension or immediate termination  of employment, if the activities occur in the workplace as defined above. Prohibited  activities under this policy include the unauthorized use of drugs, as defined above, in the  workplace, including distribution, possession, or use of a drug or controlled substance as  defined in schedules I through V of the Controlled Substances Act, 21 U.S.C. Sec. 812,  21 C.F.R. Sec 1308, and the state and local law of the jurisdiction where the workplace is  located, including, but not by way of limitation, marijuana, opiates (e.g., heroin,  morphine), cocaine, phencyclidine (PCP), and amphetamines. However, the use of prescription drugs, when taken as directed by a duly licensed physician, shall not be a  violation of this policy. 
+
+Information regarding the availability of treatment programs, if any, such as assistance  provided by Pressure Profile Systems, Inc. health care plan coverage or drug and alcohol  abuse rehabilitation programs and the requirements for participation in drug and alcohol  abuse education and training programs, may be requested by contacting your  management. 
+
+As a condition of employment, all Company employees must comply with this policy.  Any Company employee who has been convicted under any criminal drug statute for a  violation occurring in the workplace must report that conviction to the Company no later  than five days after the conviction. Within thirty days after receiving notice of the  conviction described in this policy, the Company shall impose discipline on, or require  satisfactory participation in a drug abuse assistance or rehabilitation program, by any  employee who is convicted of a violation of a criminal drug statute if the violation  occurred in the workplace. 
+
+This policy is not intended to replace or otherwise alter the obligation to comply with  requirements of the U.S. Department of Transportation or any other federal, state or local  agency that regulates drug testing administration or a particular industry. 
