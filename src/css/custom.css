@@ -1,0 +1,331 @@
+/* =========================================
+   1. GLOBAL VARIABLES & FONTS
+   ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --ifm-color-primary: #1e293b;
+  --ifm-color-primary-dark: #1b2535;
+  --ifm-color-primary-darker: #192332;
+  --ifm-color-primary-darkest: #151d29;
+  --ifm-color-primary-light: #212d41;
+  --ifm-color-primary-lighter: #222f44;
+  --ifm-color-primary-lightest: #27354d;
+  
+  --ifm-background-color: white;
+  --ifm-font-color-base: #1E293B;
+
+  --ifm-menu-color: #1E293B;             /* Default text color */
+  --ifm-menu-color-active: #ff5252;      /* Active link color */
+  --ifm-menu-color-background-active: rgba(255, 82, 82, 0.1); /* Active background */
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.05);     /* Hover background */
+  --ifm-toc-link-color: #64748b;        /* Default color */
+  --ifm-toc-border-color: #e2e8f0;      /* The vertical line color */
+
+  --ifm-font-family-base: 'Kanit', sans-serif;
+}
+
+
+/* =========================================
+   2. GENERAL TYPOGRAPHY (.markdown scope)
+   ========================================= */
+
+.markdown h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'gotham', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.markdown h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'gotham', 'Kanit', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.markdown h3 {
+  font-size: 28px;
+  font-weight: 550;
+  font-family: 'gotham', 'Kanit', sans-serif;
+}
+
+.markdown h4 {
+  font-size: 22px;
+  font-weight: 550;
+  font-family: 'gotham', 'Kanit', sans-serif;
+}
+
+.markdown h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'gotham', 'Kanit', sans-serif;
+  color: var(--ifm-color-primary);
+}
+
+.markdown h6 {
+  font-size: 28px;
+  font-weight: 450;
+}
+
+.markdown {
+  font-weight: 350;
+}
+
+.markdown strong, 
+.markdown b {
+  font-weight: 500;
+}
+
+.markdown a {
+  text-decoration: underline;
+}
+
+.markdown img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.menu__link {
+  font-family: 'gotham', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.breadcrumbs {
+  display: none;
+}
+
+/* Hide scrollbars in the TOC but allow scrolling if needed */
+.table-of-contents {
+  overflow-x: hidden; /* Hide horizontal bar */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.table-of-contents::-webkit-scrollbar {
+  display: none; /* For Chrome/Safari */
+}
+
+.table-of-contents__link {
+  font-family: 'gotham';
+  font-size: 1rem; /* Default is usually around 0.8rem */
+  margin-top: 5px; /* Adds a little space between links for readability */
+}
+
+/* Optional: Make the "Active" link in the TOC bold */
+.table-of-contents__link--active {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+/* 1. Hide nested TOC levels (H3s) by default */
+/* We target the <ul> inside the top-level <li> */
+.table-of-contents > li > ul {
+  display: none;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+/* Show: If the PARENT link (H2) is active, show the children (H3) */
+/* Note: Docusaurus adds 'active' class to the link, not the LI.
+   We use the :has() selector to check if the LI contains an active link */
+.table-of-contents > li:has(> .table-of-contents__link--active) > ul,
+/* OR if one of the children is active, keep the list open */
+.table-of-contents > li:has(ul > li > .table-of-contents__link--active) > ul {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 2. Style the links */
+.table-of-contents__link {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid transparent; /* Prepare for border transition */
+  padding-left: 8px;
+  transition: all 0.2s;
+}
+
+/* 3. ACTIVE STATE styling */
+.table-of-contents__link--active {
+  font-weight: bold;
+  border-left: 3px solid #ff5252;
+  padding-left: 12px;
+  margin-left: -5px; /* Pull back to align with border */
+}
+
+/* 4. Parent Heading Styling (Blue) */
+/* If a child (H3) is active, style the parent (H2) blue */
+.table-of-contents > li:has(ul > li > .table-of-contents__link--active) > .table-of-contents__link {
+  color: #ff5252;
+  font-weight: 700;
+  opacity: 1;
+}
+
+/* =========================================
+   4. SMART ARROW INDICATORS (TOC)
+   ========================================= */
+
+/* Add arrow only if the item has a nested list (children) */
+.table-of-contents__link:has(+ ul)::after {
+  content: '▾';
+  display: inline-block;
+  margin-left: auto;
+  font-size: 0.7em;
+  transform: rotate(-90deg); /* Pointing right (closed) */
+  transition: transform 0.2s;
+  opacity: 0.6;
+}
+
+/* Rotate arrow when open (Parent is active OR Child is active) */
+.table-of-contents > li:has(> .table-of-contents__link--active) > .table-of-contents__link::after,
+.table-of-contents > li:has(ul > li > .table-of-contents__link--active) > .table-of-contents__link::after {
+  transform: rotate(0deg); /* Pointing down (open) */
+  opacity: 1;
+}
+
+/* General Table Styling */
+.markdown table {
+  display: table; /* Ensures it acts like a table, sometimes needed */
+  width: 80%;    /* Makes table expand to fill the container */
+  border-collapse: collapse; /* Removes double borders */
+  margin-bottom: 2rem;
+}
+
+/* Table Header */
+.markdown table thead,
+.markdown table thead tr {
+  border: none; 
+  border-bottom: none; 
+  text-align: left;
+}
+
+.markdown table th {
+  background-color: #f6f8fa; /* Light gray background */
+  border: 1px solid #d0d7de; /* Header border */
+  padding: 12px;
+  font-weight: 500;
+}
+
+/* Table Cells */
+.markdown table td {
+  border: 1px solid #d0d7de; /* Cell border */
+  padding: 12px;
+}
+
+/* Zebra Striping (Alternating row colors) */
+.markdown table tr:nth-child(2n) {
+  background-color: #ffffff;
+}
+.markdown table tr:nth-child(2n+1) {
+  background-color: #fcfcfc; /* Very subtle gray for odd rows */
+}
+
+/* Hover Effect (Highlight row on mouseover) */
+.markdown table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* =========================================
+   CUSTOM TABS STYLING
+   ========================================= */
+
+/* 1. The Tab Bar (Header) */
+.tabs {
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 0 !important;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+/* 2. Individual Tab Buttons */
+.tabs__item {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: #64748b;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin-right: 4px;
+  transition: all 0.2s;
+}
+
+/* 3. Active Tab */
+.tabs__item--active {
+  background-color: white;
+  color: var(--ifm-color-primary);
+  border: 1px solid #d0d7de;
+  z-index: 5;
+}
+
+/* 4. Hover Effect */
+.tabs__item:hover:not(.tabs__item--active) {
+  background-color: rgba(0,0,0,0.05);
+  color: var(--ifm-color-primary);
+}
+
+
+.tabs + div {
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 0 !important;
+}
+
+/* =========================================
+   NUCLEAR DISABLE DARK MODE
+   ========================================= */
+
+/* Force specific "Light Mode" colors onto the "Dark Mode" selector */
+html[data-theme='dark'] {
+  /* 1. Backgrounds & Text */
+  --ifm-background-color: #ffffff !important;
+  --ifm-font-color-base: #1c1e21 !important;
+  --ifm-navbar-background-color: #ffffff !important;
+  
+  /* 2. Admonitions (Note, Tip, Info, Warning) - Force Light Backgrounds */
+  --ifm-color-info-contrast-background: #f1f6f8 !important;
+  --ifm-color-info-contrast-background: #f1f6f8 !important;
+  --ifm-color-success-contrast-background: #f0fdf4 !important;
+  --ifm-color-warning-contrast-background: #fffbea !important;
+  --ifm-color-danger-contrast-background: #fdf2f2 !important;
+  --ifm-alert-background-color: inherit !important;
+  --ifm-alert-border-color: #dadde1 !important;
+  --ifm-alert-color: #1c1e21 !important; /* Text inside alerts */
+  --ifm-color-secondary-contrast-background: #f6f8fa !important;
+
+  /* 3. Code Blocks & Tabs */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1) !important;
+  --ifm-tabs-color: #606770 !important;
+  --ifm-tabs-color-active: var(--ifm-color-primary) !important;
+  --ifm-toc-border-color: #dadde1 !important;
+}
+
+/* Force standard text color on everything in Dark Mode */
+html[data-theme='dark'] * {
+  scrollbar-color: #dadde1 #ffffff; /* Fix scrollbars */
+}
+
+/* Fix Admonition Icons (which turn white in dark mode) */
+html[data-theme='dark'] .alert {
+  --ifm-alert-foreground-color: #1c1e21 !important;
+}
